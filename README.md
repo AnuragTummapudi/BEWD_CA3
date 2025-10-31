@@ -8,7 +8,7 @@
 5. Start the server with the command `npm start`.
 
 # API URL
-The API can be accessed at: `http://localhost:3000/api/recipes`
+The API can be accessed at: `https://bewd-ca3-vsix.onrender.com`
 
 # API Endpoints
 - `GET api/recipes`: Retrieve a list of all recipes.   
@@ -28,9 +28,9 @@ The API can be accessed at: `http://localhost:3000/api/recipes`
 - **Add Recipe (POST /api/recipes)**:
     ```json
     {
-        "recipeTitle": "Spaghetti Bolognese",
-        "ingredients": ["spaghetti", "ground beef", "tomato sauce", "onion", "garlic"],
-        "instructions": "Cook spaghetti. Brown beef with onion and garlic. Add tomato sauce. Combine with spaghetti.",
-        "difficulty": "medium"
+        "recipeTitle": "Aloo Fry",
+        "ingredients": ["Aloo", "Oil", "Jeera", "onion"],
+        "instructions": "Pour oil into pan and fry the aloo slowly under low flame.",
+        "difficulty": "easy"
     }
     ```
